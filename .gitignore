@@ -1,0 +1,21 @@
+# Data (downloaded from Kaggle, see README) — not versioned
+data/
+data.nosync/
+
+# Python environment
+.venv
+.venv.nosync/
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Trained models (large binaries)
+*.keras
+*.h5
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,23 @@
+[project]
+name = "rps-image-classification"
+version = "0.1.0"
+description = "Rock-Paper-Scissors hand-gesture classification: leakage-aware evaluation, robustness and efficiency of baselines, small CNNs and MobileNet."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "scikit-image",
+    "pillow",
+    "imagehash",
+    "tensorflow>=2.18",
+    "keras>=3",
+    "ipykernel",
+    "jupyterlab",
+]
+
+[tool.uv]
+package = false
