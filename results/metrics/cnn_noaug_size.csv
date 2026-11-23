@@ -1,0 +1,2 @@
+model,n_params,size_mb,pred_time_ms_per_image
+CNN no augmentation,93635,1.1120491027832031,0.4804287951416764
